@@ -27,7 +27,6 @@ let streets = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/satellite-str
 // Get data from cities.js
 let cityData = cities;
 
-
 // Then we add our 'graymap' tile layer to the map.
 streets.addTo(map);
  
